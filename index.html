@@ -4,10 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Donut Clicker Game</title>
   </head>
+  <div class="navbar">
+  <div class="subnav">
+      <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a> Cookies suck! Australia runs on donuts! Fred the Baker Baking Company literally has the best donuts in the wolrd. It's seriously not even a competiton. We ship worldwide or come visit us at 42 Wallaby Way, Sydney. </a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">Inspiration <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a>We made this game because donuts are far superior to cookies. Click the link to the right if you want to play a game that is inferior to this one. AND NO WE DID NOT STEAL THE IDEA! </a>
+        <a href="https://orteil.dashnet.org/cookieclicker/">Inferior Game</a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">The Developer <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a>Name: Jalyn Jenkins</a>
+        <a>Location: Columbus, Ohio, USA</a>
+        <a>Fav. Type of Donut: Glazed (Krispy Kreme)</a>
+        <a href="#link4">GitHub</a>
+        <a href="#link4">LinkedIn</a>
+        <a href="#link4">Portfolio</a>
+      </div>
+    </div>
+
+      </div>
+
+  <header>
+    <h1>Donut Clicker Game</h1>
+  </header>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    <main>
+      <section>
+        <img src="Photos/DonutPic1.png"> 
+        <p>Number of Donuts: <span id="donutsCount">0</span></p>
+        <button id="createDonutBtn">Create a Donut</button>
+          </div>
+        </section>
+        <section>
+          <div>
+            <p>Auto Clicker Cost: <span id="autoClickersCost">100</span></p> 
+            <p> Number of Auto Clickers: <span id="autoClickers">0</span></p> 
+            <button id="buyAutoClickerBtn" >Buy Auto Clicker </button>
+          </div>
+        </section>
+        <section>
+      <div>
+        <p>Donut Multiplier Cost: <span id="donutMultiplierCost">10</span></p> 
+        <p>Number of Donut Multipliers: <span id="donutMultipliers">0</span></p> 
+        <button id="buyMultiplierBtn" >Buy Donut Multiplier </button>
+      </div>
+    </section>
+        
+        <script src="./index.js" type="module"></script>
+    </main>
   </body>
+  
+  <footer> donut.com 2022</footer>
 </html>
